@@ -10,6 +10,8 @@ public:
 	IntroState(GameStateType type);
 	~IntroState();
 
+	void setMessage();
+
 	void Start();
 	void Update(float dTime);
 	void Render(RenderWindow* window);

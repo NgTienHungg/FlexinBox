@@ -14,9 +14,9 @@ HomeState::~HomeState()
 void HomeState::Start()
 {
 	printf("Home\n");
-	rect->setSize(Vector2f(200.f, 200.f));
-	rect->setFillColor(Color::Yellow);
-	rect->setPosition(200.f, 150.f);
+	rect->setSize(Vector2f(1040.f, 400.f));
+	rect->setFillColor(Color::Blue);
+	rect->setPosition(0.f, 0.f);
 }
 
 void HomeState::Update(float dTime)

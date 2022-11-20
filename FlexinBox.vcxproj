@@ -155,6 +155,7 @@
     <ClCompile Include="Source\Enums\EGameObject.h" />
     <ClCompile Include="Source\GUIs\Button.cpp" />
     <ClCompile Include="Source\Manager\Application.cpp" />
+    <ClCompile Include="Source\Manager\DataManager.cpp" />
     <ClCompile Include="Source\States\BaseState.cpp" />
     <ClCompile Include="Source\States\HomeState.cpp" />
     <ClCompile Include="Source\States\IntroState.cpp" />
@@ -165,6 +166,7 @@
     <ClInclude Include="Source\Enums\GameStateType.h" />
     <ClInclude Include="Source\GUIs\Button.h" />
     <ClInclude Include="Source\Manager\Application.h" />
+    <ClInclude Include="Source\Manager\DataManager.h" />
     <ClInclude Include="Source\Manager\MyDefine.h" />
     <ClInclude Include="Source\Manager\MyTemplate.h" />
     <ClInclude Include="Source\Objects\GameObject.h" />

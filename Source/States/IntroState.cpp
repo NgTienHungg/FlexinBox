@@ -1,9 +1,9 @@
-#include "IntroState.h"
+﻿#include "IntroState.h"
 #include "StateMachine.h"
 
 IntroState::IntroState(GameStateType type) : BaseState(type)
 {
-	rect = new RectangleShape(Vector2f(100, 100));
+	rect = new RectangleShape();
 }
 
 IntroState::~IntroState()
@@ -11,13 +11,13 @@ IntroState::~IntroState()
 	Delete<RectangleShape>(rect);
 }
 
+void IntroState::setMessage()
+{
+}
+
 void IntroState::Start()
 {
 	printf("Intro\n");
-	rect->setPosition(100.f, 100.f);
-	rect->setFillColor(Color::Green);
-	rect->setOutlineThickness(5.f);
-	rect->setOutlineColor(Color::Red);
 }
 
 void IntroState::Update(float dTime)

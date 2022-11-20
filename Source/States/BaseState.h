@@ -1,5 +1,6 @@
 #pragma once
 #include "../Enums/GameStateType.h"
+#include "../Manager/DataManager.h"
 #include "../Manager/MyTemplate.h"
 #include "../Manager/MyDefine.h"
 

@@ -60,6 +60,9 @@
     <ClCompile Include="Source\GUIs\Button.cpp">
       <Filter>Source Files\GUIs</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Manager\DataManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Manager\Application.h">
@@ -94,6 +97,9 @@
     </ClInclude>
     <ClInclude Include="Source\GUIs\Button.h">
       <Filter>Source Files\GUIs</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Manager\DataManager.h">
+      <Filter>Source Files\Manager</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

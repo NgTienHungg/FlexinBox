@@ -17,6 +17,7 @@ template<class T> void Delete(T* ptr) {
 
 
 
+
 //! Singleton pattern use for inheritance
 template<class T> class Singleton
 {
