@@ -1,8 +1,8 @@
 #pragma once
-#include <iostream>
-#include <map>
 #include "SFML/Graphics.hpp";
 #include "MyTemplate.h"
+#include <iostream>
+#include <map>
 
 using namespace std;
 using namespace sf;

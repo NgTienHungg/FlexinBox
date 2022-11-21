@@ -11,13 +11,12 @@ IntroState::~IntroState()
 	Delete<RectangleShape>(rect);
 }
 
-void IntroState::setMessage()
-{
-}
-
 void IntroState::Start()
 {
 	printf("Intro\n");
+	rect->setSize(Vector2f(100.f, 100.f));
+	rect->setFillColor(Color::Green);
+	rect->setPosition(200.f, 50.f);
 }
 
 void IntroState::Update(float dTime)

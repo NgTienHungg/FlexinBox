@@ -25,11 +25,11 @@
     <Filter Include="Source Files\States">
       <UniqueIdentifier>{1dfbabb9-22e8-410a-bd24-b15a7b0f0e06}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\GUIs">
-      <UniqueIdentifier>{3abd4df2-0ddc-4e35-8c6f-2d20982b198e}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Effects">
       <UniqueIdentifier>{833c711d-869f-4db0-baaa-fac2138338d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUIs">
+      <UniqueIdentifier>{3abd4df2-0ddc-4e35-8c6f-2d20982b198e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
